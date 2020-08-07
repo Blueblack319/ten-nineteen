@@ -39,21 +39,10 @@ body {
       }
     }
     .box-end {
-      position: relative;
       span {
-        position: absolute;
-        animation: scrollText 3s linear 1s infinite slidein;
-      }
-      @keyframes scrollText {
-        0% {
-          left: 0;
-        }
-        50% {
-          right: 0;
-        }
-        100% {
-          left: 0;
-        }
+        width: auto;
+        z-index: -2;
+        animation: scrollText 5s linear 1s infinite forwards;
       }
     }
   }
@@ -71,5 +60,14 @@ body {
   .box {
     flex-grow: 1;
     @extend %num;
+  }
+}
+
+@keyframes scrollText {
+  from {
+    margin-right: 200%;
+  }
+  to {
+    margin-left: 200%;
   }
 }

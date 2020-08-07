@@ -6,4 +6,4 @@
 - [x] flex
 - [x] box
 - [x] img
-- [ ] css effect
+- [x] css effect
