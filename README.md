@@ -4,6 +4,6 @@
 
 - [x] gulpfile
 - [x] flex
-- [x] text
+- [x] box
 - [x] img
 - [ ] css effect

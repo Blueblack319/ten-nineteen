@@ -18,3 +18,12 @@
   font-weight: 500;
   color: $main-color;
 }
+
+%effect {
+  cursor: pointer;
+  transition: all 0.1s linear;
+  &:hover {
+    background-color: $main-color;
+    color: white;
+  }
+}
