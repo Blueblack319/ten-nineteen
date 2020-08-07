@@ -2,8 +2,8 @@
 
 # Tasks:
 
-- [ ] gulpfile
-- [ ] grid
-- [ ] text
-- [ ] img
+- [x] gulpfile
+- [x] flex
+- [x] text
+- [x] img
 - [ ] css effect

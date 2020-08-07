@@ -1,0 +1,20 @@
+%end {
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid $main-color;
+  font-size: 22px;
+  font-weight: 500;
+  color: $main-color;
+}
+
+%num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid $main-color;
+  font-size: 22px;
+  font-weight: 500;
+  color: $main-color;
+}
